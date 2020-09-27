@@ -1,0 +1,78 @@
+html,body{
+  height:100%;
+}
+.mxheight{
+  height:100%;
+}
+.instructions{
+  background-color: rgb(211, 61, 247);
+}
+
+.mainpage{
+  background-color: rgb(208, 36, 224);
+}
+
+#root{
+  height:100%;
+}
+.fixwidth{
+  width:100%;
+  margin:0px !important;
+}
+
+.score{
+  background-color: rgb(207, 34, 74);
+}
+.t1,.t2,.t3,.t4{
+  height:25%;
+}
+
+.timer {
+  /* position: absolute; */
+  /* top: 2rem; */
+  font-size: 3rem;
+  text-align: center;
+  color: #F0DB4F;
+  font-weight: bold;
+  margin-top: 2em;
+}
+
+.quote-display {
+  /* margin-bottom: 1rem;
+  margin-left: calc(1rem + 2px);
+  margin-right: calc(1rem + 2px); */
+  text-align: justify;
+  margin: auto;
+  margin-top: 2em;
+}
+
+#cn{
+  text-align: center;
+}
+
+.quote-input {
+  background-color: rgb(196, 161, 218);
+  border: 2px solid #A1922E;
+  outline: none;
+  width: 100%;
+  height: 8rem;
+  margin: auto;
+  resize: none;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  border-radius: .5rem;
+  margin-top: 2em;
+}
+
+.quote-input:focus {
+  border-color: black;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+  text-decoration: underline;
+}
